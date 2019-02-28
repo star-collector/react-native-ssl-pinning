@@ -13,6 +13,7 @@
 		286741F220DAA25700DBD62C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 286741E920DAA25700DBD62C /* AFURLRequestSerialization.m */; };
 		286741F320DAA25700DBD62C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 286741EB20DAA25700DBD62C /* AFNetworkReachabilityManager.m */; };
 		286741F420DAA25700DBD62C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286741EC20DAA25700DBD62C /* AFSecurityPolicy.m */; };
+		6B31F32B2227E1C30079076C /* RCTHttpsControlURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B31F32A2227E1C30079076C /* RCTHttpsControlURLProtocol.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNSslPinning.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNSslPinning.m */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		286741EC20DAA25700DBD62C /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		286741ED20DAA25700DBD62C /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		286741EE20DAA25700DBD62C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		6B31F3292227E1C30079076C /* RCTHttpsControlURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTHttpsControlURLProtocol.h; sourceTree = "<group>"; };
+		6B31F32A2227E1C30079076C /* RCTHttpsControlURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTHttpsControlURLProtocol.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNSslPinning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNSslPinning.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNSslPinning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNSslPinning.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +94,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				6B31F3292227E1C30079076C /* RCTHttpsControlURLProtocol.h */,
+				6B31F32A2227E1C30079076C /* RCTHttpsControlURLProtocol.m */,
 				286741E020DAA25700DBD62C /* AFNetworking */,
 				B3E7B5881CC2AC0600A0062D /* RNSslPinning.h */,
 				B3E7B5891CC2AC0600A0062D /* RNSslPinning.m */,
@@ -155,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				286741F420DAA25700DBD62C /* AFSecurityPolicy.m in Sources */,
+				6B31F32B2227E1C30079076C /* RCTHttpsControlURLProtocol.m in Sources */,
 				286741F020DAA25700DBD62C /* AFHTTPSessionManager.m in Sources */,
 				286741F120DAA25700DBD62C /* AFURLSessionManager.m in Sources */,
 				286741F220DAA25700DBD62C /* AFURLRequestSerialization.m in Sources */,
